@@ -61,7 +61,6 @@ fun Bmi(modifier: Modifier = Modifier) {
                 .fillMaxWidth()
                 .padding(horizontal = 8.dp)
         )
-        //Spacer(modifier = Modifier.height(8.dp))
         OutlinedTextField(
             value = weightInput,
             onValueChange = { weightInput = it.replace(',', '.') },
